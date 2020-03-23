@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div>
-      <Menu></Menu>
-    </div>
     <!-- this is setting page -->
     <div class="l-tip">Setting page</div>
     <el-table :data="tableData" stripe stype="width 100%"  >
@@ -17,7 +14,6 @@
 </template>
 
 <script>
-import Menu from '../components/Menu.vue'
 export default {
   name: 'Setting',
   data () {
@@ -35,9 +31,6 @@ export default {
         { id: 3, question: 'How are you?', answer: 'Get out!' }
       ]
     }
-  },
-  components: {
-    Menu
   }
 }
 </script>

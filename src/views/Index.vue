@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div>
-      <Menu/>
-    </div>
     <div class="app-content">
       <!-- this is index page -->
       <div class="l-tip">Index page</div>
@@ -19,7 +16,6 @@
 </template>
 
 <script>
-import Menu from '../components/Menu.vue'
 export default {
   name: 'Index',
   data () {
@@ -37,9 +33,6 @@ export default {
         { id: 3, question: 'How are you?', answer: 'Get out!' }
       ]
     }
-  },
-  components: {
-    Menu
   }
 }
 </script>

@@ -1,3 +1,4 @@
+const host = 'http://wx.test.ink'
 const url = {
   version: '/api/system/version',
   login: '/api/login'
@@ -5,5 +6,6 @@ const url = {
 
 export default {
   url,
-  name: 'Lolo-config'
+  name: 'Lolo-config',
+  host
 }
